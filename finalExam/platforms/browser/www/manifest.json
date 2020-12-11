@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Final Exam",
+  "short_name": "Final Exam",
+  "version": "com.phonegap.batteryandnetwork",
+  "description": "INFO-3113 Final Exam Base Project",
+  "author": "PhoneGap Team",
+  "icons": [],
+  "start_url": "index.html"
+}

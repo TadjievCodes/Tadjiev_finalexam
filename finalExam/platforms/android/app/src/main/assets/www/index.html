@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        
+        <title>m_tadjiev - Final Exam</title>
+    </head>
+
+    <body>
+        <h1>m_tadjiev - Final Exam</h1>
+
+        <div>
+            <h3>Device Motion</h3>
+            <h5>here we will display the devices current X, Y, and Z axis values</h5>
+            <div class="label">X value:</div>
+            <div id="device-motion-x"></div>
+            <div class="label">Y value:</div>
+            <div id="device-motion-y"></div>
+            <div class="label">Z value:</div>
+            <div id="device-motion-z"></div>
+        </div>
+
+        <div>
+            <h3>Device Orientation</h3>
+            <h5>here we will display the devices current alpha, beta, and gamma axis values</h5>
+            <div class="label">alpha value:</div>
+            <div id="device-orientation-alpha"></div>
+            <div class="label">beta value:</div>
+            <div id="device-orientation-beta"></div>
+            <div class="label">gamma value:</div>
+            <div id="device-orientation-gamma"></div>
+        </div>
+
+        <div>
+            <h3>Geolocation</h3>
+            <h5>Pressing this button will show an alert containing your current latitude and longitude</h5>
+            <button id="show-geolocation-button">Show me my location!</button>
+        </div>
+
+        <div>
+            <h3>Local Storage</h3>
+            <h5>Here we will demonstrate how to save and retrieve from Local Storage</h5>
+            <input type="text" id="local-storage-input" />
+            <br />
+            <button id="save-to-local-storage-button">Save To Local Storage!</button>
+            <button id="load-from-local-storage-button">Load From Local Storage!</button>
+        </div>
+
+        <div>
+            <h3>SQL Storage</h3>
+            <h5>Here we will demonstrate how to save and retrieve from SQL</h5>
+            <input type="text" id="input-for-db" />
+            <br />
+            <button id="save-to-db-button">Save To DB!</button>
+            <button id="load-from-db-button">Load From DB!</button>
+        </div>
+        <section id="print"></section>
+
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

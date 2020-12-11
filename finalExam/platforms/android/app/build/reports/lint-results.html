@@ -1,0 +1,1805 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Lint Report</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-indigo.min.css" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+<script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+<style>
+section.section--center {
+    max-width: 860px;
+}
+.mdl-card__supporting-text + .mdl-card__actions {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+main > .mdl-layout__tab-panel {
+  padding: 8px;
+  padding-top: 48px;
+}
+
+.mdl-card__actions {
+    margin: 0;
+    padding: 4px 40px;
+    color: inherit;
+}
+.mdl-card > * {
+    height: auto;
+}
+.mdl-card__actions a {
+    color: #00BCD4;
+    margin: 0;
+}
+.error-icon {
+    color: #bb7777;
+    vertical-align: bottom;
+}
+.warning-icon {
+    vertical-align: bottom;
+}
+.mdl-layout__content section:not(:last-of-type) {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.mdl-card .mdl-card__supporting-text {
+  margin: 40px;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0;
+  color: inherit;
+  width: calc(100% - 80px);
+}
+div.mdl-layout__drawer-button .material-icons {
+    line-height: 48px;
+}
+.mdl-card .mdl-card__supporting-text {
+    margin-top: 0px;
+}
+.chips {
+    float: right;
+    vertical-align: middle;
+}
+pre.errorlines {
+    background-color: white;
+    font-family: monospace;
+    border: 1px solid #e0e0e0;
+    line-height: 0.9rem;
+    font-size: 0.9rem;    padding: 1px 0px 1px; 1px;
+    overflow: scroll;
+}
+.prefix {
+    color: #660e7a;
+    font-weight: bold;
+}
+.attribute {
+    color: #0000ff;
+    font-weight: bold;
+}
+.value {
+    color: #008000;
+    font-weight: bold;
+}
+.tag {
+    color: #000080;
+    font-weight: bold;
+}
+.comment {
+    color: #808080;
+    font-style: italic;
+}
+.javadoc {
+    color: #808080;
+    font-style: italic;
+}
+.annotation {
+    color: #808000;
+}
+.string {
+    color: #008000;
+    font-weight: bold;
+}
+.number {
+    color: #0000ff;
+}
+.keyword {
+    color: #000080;
+    font-weight: bold;
+}
+.caretline {
+    background-color: #fffae3;
+}
+.lineno {
+    color: #999999;
+    background-color: #f0f0f0;
+}
+.error {
+    display: inline-block;
+    position:relative;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AwCFR4T/3uLMgAAADxJREFUCNdNyLERQEAABMCjL4lQwIzcjErpguAL+C9AvgKJDbeD/PRpLdm35Hm+MU+cB+tCKaJW4L4YBy+CAiLJrFs9mgAAAABJRU5ErkJggg==) bottom repeat-x;
+}
+.warning {
+    text-decoration: none;
+    background-color: #f6ebbc;
+}
+.overview {
+    padding: 10pt;
+    width: 100%;
+    overflow: auto;
+    border-collapse:collapse;
+}
+.overview tr {
+    border-bottom: solid 1px #eeeeee;
+}
+.categoryColumn a {
+     text-decoration: none;
+     color: inherit;
+}
+.countColumn {
+    text-align: right;
+    padding-right: 20px;
+    width: 50px;
+}
+.issueColumn {
+   padding-left: 16px;
+}
+.categoryColumn {
+   position: relative;
+   left: -50px;
+   padding-top: 20px;
+   padding-bottom: 5px;
+}
+</style>
+<script language="javascript" type="text/javascript"> 
+<!--
+function reveal(id) {
+if (document.getElementById) {
+document.getElementById(id).style.display = 'block';
+document.getElementById(id+'Link').style.display = 'none';
+}
+}
+function hideid(id) {
+if (document.getElementById) {
+document.getElementById(id).style.display = 'none';
+}
+}
+//--> 
+</script>
+</head>
+<body class="mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">Lint Report: 45 warnings</span>
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+Check performed at Mon Nov 18 08:42:48 EST 2019      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Issue Types</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
+      <a class="mdl-navigation__link" href="#DefaultLocale"><i class="material-icons warning-icon">warning</i>Implied default locale in case conversion (2)</a>
+      <a class="mdl-navigation__link" href="#ExifInterface"><i class="material-icons warning-icon">warning</i>Using <code>android.media.ExifInterface</code> (2)</a>
+      <a class="mdl-navigation__link" href="#OldTargetApi"><i class="material-icons warning-icon">warning</i>Target SDK attribute is not targeting latest version (1)</a>
+      <a class="mdl-navigation__link" href="#SdCardPath"><i class="material-icons warning-icon">warning</i>Hardcoded reference to <code>/sdcard</code> (3)</a>
+      <a class="mdl-navigation__link" href="#SimpleDateFormat"><i class="material-icons warning-icon">warning</i>Implied locale in date format (5)</a>
+      <a class="mdl-navigation__link" href="#ManifestOrder"><i class="material-icons warning-icon">warning</i>Incorrect order of elements in manifest (1)</a>
+      <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (2)</a>
+      <a class="mdl-navigation__link" href="#GradleDynamicVersion"><i class="material-icons warning-icon">warning</i>Gradle Dynamic Version (1)</a>
+      <a class="mdl-navigation__link" href="#GradleOverrides"><i class="material-icons warning-icon">warning</i>Value overridden by Gradle build script (2)</a>
+      <a class="mdl-navigation__link" href="#HardwareIds"><i class="material-icons warning-icon">warning</i>Hardware Id Usage (2)</a>
+      <a class="mdl-navigation__link" href="#SetWorldWritable"><i class="material-icons warning-icon">warning</i><code>File.setWritable()</code> used to make file world-writable (1)</a>
+      <a class="mdl-navigation__link" href="#AllowBackup"><i class="material-icons warning-icon">warning</i>AllowBackup/FullBackupContent Problems (2)</a>
+      <a class="mdl-navigation__link" href="#Recycle"><i class="material-icons warning-icon">warning</i>Missing <code>recycle()</code> calls (1)</a>
+      <a class="mdl-navigation__link" href="#ObsoleteSdkInt"><i class="material-icons warning-icon">warning</i>Obsolete SDK_INT Version Check (11)</a>
+      <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (5)</a>
+      <a class="mdl-navigation__link" href="#IconDipSize"><i class="material-icons warning-icon">warning</i>Icon density-independent size validation (1)</a>
+      <a class="mdl-navigation__link" href="#GoogleAppIndexingWarning"><i class="material-icons warning-icon">warning</i>Missing support for Firebase App Indexing (1)</a>
+      <a class="mdl-navigation__link" href="#RtlHardcoded"><i class="material-icons warning-icon">warning</i>Using left/right instead of start/end attributes (2)</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="mdl-layout__tab-panel is-active">
+<a name="overview"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="OverviewCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Overview</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<table class="overview">
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#DefaultLocale">DefaultLocale</a>: Implied default locale in case conversion</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#ExifInterface">ExifInterface</a>: Using <code>android.media.ExifInterface</code></td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#OldTargetApi">OldTargetApi</a>: Target SDK attribute is not targeting latest version</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#SdCardPath">SdCardPath</a>: Hardcoded reference to <code>/sdcard</code></td></tr>
+<tr>
+<td class="countColumn">5</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#SimpleDateFormat">SimpleDateFormat</a>: Implied locale in date format</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#ManifestOrder">ManifestOrder</a>: Incorrect order of elements in manifest</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#GradleDependency">GradleDependency</a>: Obsolete Gradle Dependency</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#GradleDynamicVersion">GradleDynamicVersion</a>: Gradle Dynamic Version</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#GradleOverrides">GradleOverrides</a>: Value overridden by Gradle build script</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Security">Security</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#HardwareIds">HardwareIds</a>: Hardware Id Usage</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#SetWorldWritable">SetWorldWritable</a>: <code>File.setWritable()</code> used to make file world-writable</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#AllowBackup">AllowBackup</a>: AllowBackup/FullBackupContent Problems</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Performance">Performance</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#Recycle">Recycle</a>: Missing <code>recycle()</code> calls</td></tr>
+<tr>
+<td class="countColumn">11</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#ObsoleteSdkInt">ObsoleteSdkInt</a>: Obsolete SDK_INT Version Check</td></tr>
+<tr>
+<td class="countColumn">5</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#UnusedResources">UnusedResources</a>: Unused resources</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#IconDipSize">IconDipSize</a>: Icon density-independent size validation</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Usability">Usability</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#GoogleAppIndexingWarning">GoogleAppIndexingWarning</a>: Missing support for Firebase App Indexing</td></tr>
+<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Internationalization:Bidirectional Text">Internationalization:Bidirectional Text</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#RtlHardcoded">RtlHardcoded</a>: Using left/right instead of start/end attributes</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (23)</a>
+</td></tr></table>
+<br/>              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="OverviewCardLink" onclick="hideid('OverviewCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Correctness"></a>
+<a name="DefaultLocale"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="DefaultLocaleCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Implied default locale in case conversion</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/org/apache/cordova/networkinformation/NetworkManager.java">../../src/main/java/org/apache/cordova/networkinformation/NetworkManager.java</a>:248</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>toLowerCase(Locale)</code> instead. For strings meant to be internal use <code>Locale.ROOT</code>, otherwise <code>Locale.getDefault()</code>.</span><br /><pre class="errorlines">
+<span class="lineno"> 245 </span>        <span class="keyword">if</span> (info != <span class="keyword">null</span>) {
+<span class="lineno"> 246 </span>            String type = info.getTypeName().toLowerCase(Locale.US);
+<span class="lineno"> 247 </span>
+<span class="caretline"><span class="lineno"> 248 </span>            LOG.d(LOG_TAG, <span class="string">"toLower : "</span> + type.<span class="warning">toLowerCase</span>());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 249 </span>            LOG.d(LOG_TAG, <span class="string">"wifi : "</span> + WIFI);
+<span class="lineno"> 250 </span>            <span class="keyword">if</span> (type.equals(WIFI)) {
+<span class="lineno"> 251 </span>                <span class="keyword">return</span> TYPE_WIFI;
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/networkinformation/NetworkManager.java">../../src/main/java/org/apache/cordova/networkinformation/NetworkManager.java</a>:253</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>toLowerCase(Locale)</code> instead. For strings meant to be internal use <code>Locale.ROOT</code>, otherwise <code>Locale.getDefault()</code>.</span><br /><pre class="errorlines">
+<span class="lineno"> 250 </span>  <span class="keyword">if</span> (type.equals(WIFI)) {
+<span class="lineno"> 251 </span>      <span class="keyword">return</span> TYPE_WIFI;
+<span class="lineno"> 252 </span>  }
+<span class="caretline"><span class="lineno"> 253 </span>  <span class="keyword">else</span> <span class="keyword">if</span> (type.<span class="warning">toLowerCase</span>().equals(TYPE_ETHERNET) || type.toLowerCase().startsWith(TYPE_ETHERNET_SHORT)) {</span>
+<span class="lineno"> 254 </span>      <span class="keyword">return</span> TYPE_ETHERNET;
+<span class="lineno"> 255 </span>  }
+<span class="lineno"> 256 </span>  <span class="keyword">else</span> <span class="keyword">if</span> (type.equals(MOBILE) || type.equals(CELLULAR)) {
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationDefaultLocale" style="display: none;">
+Calling <code>String#toLowerCase()</code> or <code>#toUpperCase()</code> <b>without specifying an explicit locale</b> is a common source of bugs. The reason for that is that those methods will use the current locale on the user's device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for <code>i</code> is <b>not</b> <code>I</code>.<br/>
+<br/>
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call <code>String#toUpperCase(Locale.US)</code> instead. If you really want to use the current locale, call <code>String#toUpperCase(Locale.getDefault())</code> instead.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/java/util/Locale.html#default_locale">http://developer.android.com/reference/java/util/Locale.html#default_locale</a>
+</div>To suppress this error, use the issue id "DefaultLocale" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">DefaultLocale</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 6/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationDefaultLocaleLink" onclick="reveal('explanationDefaultLocale');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="DefaultLocaleCardLink" onclick="hideid('DefaultLocaleCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="ExifInterface"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="ExifInterfaceCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Using android.media.ExifInterface</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/org/apache/cordova/camera/CameraLauncher.java">../../src/main/java/org/apache/cordova/camera/CameraLauncher.java</a>:54</span>: <span class="message">Avoid using <code>android.media.ExifInterface</code>; use <code>android.support.media.ExifInterface</code> from the support library instead</span><br /><pre class="errorlines">
+<span class="lineno">   51 </span><span class="keyword">import</span> android.graphics.Bitmap.CompressFormat;
+<span class="lineno">   52 </span><span class="keyword">import</span> android.graphics.BitmapFactory;
+<span class="lineno">   53 </span><span class="keyword">import</span> android.graphics.Matrix;
+<span class="caretline"><span class="lineno">   54 </span><span class="keyword">import</span> <span class="warning">android.media.ExifInterface</span>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">   55 </span><span class="keyword">import</span> android.media.MediaScannerConnection;
+<span class="lineno">   56 </span><span class="keyword">import</span> android.media.MediaScannerConnection.MediaScannerConnectionClient;
+<span class="lineno">   57 </span><span class="keyword">import</span> android.net.Uri;
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/camera/ExifHelper.java">../../src/main/java/org/apache/cordova/camera/ExifHelper.java</a>:23</span>: <span class="message">Avoid using <code>android.media.ExifInterface</code>; use <code>android.support.media.ExifInterface</code> from the support library instead</span><br /><pre class="errorlines">
+<span class="lineno">  20 </span>
+<span class="lineno">  21 </span><span class="keyword">import</span> java.io.IOException;
+<span class="lineno">  22 </span>
+<span class="caretline"><span class="lineno">  23 </span><span class="keyword">import</span> <span class="warning">android.media.ExifInterface</span>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  24 </span>
+<span class="lineno">  25 </span><span class="keyword">public</span> <span class="keyword">class</span> ExifHelper {
+<span class="lineno">  26 </span>    <span class="keyword">private</span> String aperture = <span class="keyword">null</span>;
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationExifInterface" style="display: none;">
+The <code>android.media.ExifInterface</code> implementation has some known security bugs in older versions of Android. There is a new implementation available of this library in the support library, which is preferable.<br/>To suppress this error, use the issue id "ExifInterface" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">ExifInterface</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 6/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationExifInterfaceLink" onclick="reveal('explanationExifInterface');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="ExifInterfaceCardLink" onclick="hideid('ExifInterfaceCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="OldTargetApi"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="OldTargetApiCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Target SDK attribute is not targeting latest version</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:16</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the <code>android.os.Build.VERSION_CODES</code> javadoc for details.</span><br /><pre class="errorlines">
+<span class="lineno"> 13 </span>          <span class="tag">&lt;meta-data</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.support.FILE_PROVIDER_PATHS"</span> <span class="prefix">android:</span><span class="attribute">resource</span>=<span class="value">"@xml/provider_paths"</span> />
+<span class="lineno"> 14 </span>      <span class="tag">&lt;/provider></span>
+<span class="lineno"> 15 </span>  <span class="tag">&lt;/application></span>
+<span class="caretline"><span class="lineno"> 16 </span>  <span class="tag">&lt;uses-sdk</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">minSdkVersion</span>=<span class="value">"14"</span> <span class="warning"><span class="prefix">android:</span><span class="attribute">targetSdkVersion</span>=<span class="value">"27"</span></span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 17 </span>  <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.WRITE_EXTERNAL_STORAGE"</span> />
+<span class="lineno"> 18 </span>  <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.ACCESS_COARSE_LOCATION"</span> />
+<span class="lineno"> 19 </span>  <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.ACCESS_FINE_LOCATION"</span> />
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationOldTargetApi" style="display: none;">
+When your application runs on a version of Android that is more recent than your <code>targetSdkVersion</code> specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the <code>targetSdkVersion</code> is less than 14, your app may get an option button in the UI.<br/>
+<br/>
+To fix this issue, set the <code>targetSdkVersion</code> to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: <a href="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html">http://developer.android.com/reference/android/os/Build.VERSION_CODES.html</a><br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html">http://developer.android.com/reference/android/os/Build.VERSION_CODES.html</a>
+</div>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "OldTargetApi" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">OldTargetApi</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 6/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationOldTargetApiLink" onclick="reveal('explanationOldTargetApi');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="OldTargetApiCardLink" onclick="hideid('OldTargetApiCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="SdCardPath"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="SdCardPathCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Hardcoded reference to /sdcard</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/org/apache/cordova/media/AudioPlayer.java">../../src/main/java/org/apache/cordova/media/AudioPlayer.java</a>:114</span>: <span class="message">Do not hardcode "<code>/data/</code>"; use <code>Context.getFilesDir().getPath()</code> instead</span><br /><pre class="errorlines">
+<span class="lineno"> 111 </span>    <span class="keyword">if</span> (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
+<span class="lineno"> 112 </span>        tempFileName = Environment.getExternalStorageDirectory().getAbsolutePath() + <span class="string">"/tmprecording-"</span> + System.currentTimeMillis() + <span class="string">".3gp"</span>;
+<span class="lineno"> 113 </span>    } <span class="keyword">else</span> {
+<span class="caretline"><span class="lineno"> 114 </span>        tempFileName = <span class="warning"><span class="string">"/data/data/"</span></span> + handler.cordova.getActivity().getPackageName() + <span class="string">"/cache/tmprecording-"</span> + System.currentTimeMillis() + <span class="string">".3gp"</span>;</span>
+<span class="lineno"> 115 </span>    }
+<span class="lineno"> 116 </span>    <span class="keyword">return</span> tempFileName;
+<span class="lineno"> 117 </span>  }
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/media/AudioPlayer.java">../../src/main/java/org/apache/cordova/media/AudioPlayer.java</a>:191</span>: <span class="message">Do not hardcode "<code>/data/</code>"; use <code>Context.getFilesDir().getPath()</code> instead</span><br /><pre class="errorlines">
+<span class="lineno"> 188 </span>      <span class="keyword">if</span> (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
+<span class="lineno"> 189 </span>          file = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + file;
+<span class="lineno"> 190 </span>      } <span class="keyword">else</span> {
+<span class="caretline"><span class="lineno"> 191 </span>          file = <span class="warning"><span class="string">"/data/data/"</span></span> + handler.cordova.getActivity().getPackageName() + <span class="string">"/cache/"</span> + file;</span>
+<span class="lineno"> 192 </span>      }
+<span class="lineno"> 193 </span>  }
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/file/FileUtils.java">../../src/main/java/org/apache/cordova/file/FileUtils.java</a>:204</span>: <span class="message">Do not hardcode "<code>/data/</code>"; use <code>Context.getFilesDir().getPath()</code> instead</span><br /><pre class="errorlines">
+<span class="lineno">  201 </span>                tempRoot = Environment.getExternalStorageDirectory().getAbsolutePath() +
+<span class="lineno">  202 </span>                        <span class="string">"/Android/data/"</span> + packageName + <span class="string">"/cache/"</span>;
+<span class="lineno">  203 </span>            } <span class="keyword">else</span> {
+<span class="caretline"><span class="lineno">  204 </span>                persistentRoot = <span class="warning"><span class="string">"/data/data/"</span></span> + packageName;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  205 </span>            }
+<span class="lineno">  206 </span>            <span class="keyword">this</span>.configured = <span class="keyword">true</span>;
+<span class="lineno">  207 </span>        }
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationSdCardPath" style="display: none;">
+Your code should not reference the <code>/sdcard</code> path directly; instead use <code>Environment.getExternalStorageDirectory().getPath()</code>.<br/>
+<br/>
+Similarly, do not reference the <code>/data/data/</code> path directly; it can vary in multi-user scenarios. Instead, use <code>Context.getFilesDir().getPath()</code>.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/topics/data/data-storage.html#filesExternal">http://developer.android.com/guide/topics/data/data-storage.html#filesExternal</a>
+</div>To suppress this error, use the issue id "SdCardPath" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">SdCardPath</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 6/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationSdCardPathLink" onclick="reveal('explanationSdCardPath');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="SdCardPathCardLink" onclick="hideid('SdCardPathCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="SimpleDateFormat"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="SimpleDateFormatCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Implied locale in date format</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/org/apache/cordova/camera/CameraLauncher.java">../../src/main/java/org/apache/cordova/camera/CameraLauncher.java</a>:600</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
+<span class="lineno">  597 </span>  }
+<span class="lineno">  598 </span>
+<span class="lineno">  599 </span>  <span class="keyword">private</span> String getPicturesPath() {
+<span class="caretline"><span class="lineno">  600 </span>      String timeStamp = <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyyMMdd_HHmmss"</span>)</span>.format(<span class="keyword">new</span> Date());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  601 </span>      String imageFileName = <span class="string">"IMG_"</span> + timeStamp + (<span class="keyword">this</span>.encodingType == JPEG ? <span class="string">".jpg"</span> : <span class="string">".png"</span>);
+<span class="lineno">  602 </span>      File storageDir = Environment.getExternalStoragePublicDirectory(
+<span class="lineno">  603 </span>              Environment.DIRECTORY_PICTURES);
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/camera/CameraLauncher.java">../../src/main/java/org/apache/cordova/camera/CameraLauncher.java</a>:636</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
+<span class="lineno">  633 </span>           realPath.substring(realPath.lastIndexOf(<span class="string">'/'</span>) + <span class="number">1</span>) :
+<span class="lineno">  634 </span>           <span class="string">"modified."</span> + (<span class="keyword">this</span>.encodingType == JPEG ? <span class="string">"jpg"</span> : <span class="string">"png"</span>);
+<span class="lineno">  635 </span>
+<span class="caretline"><span class="lineno">  636 </span>   String timeStamp = <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyyMMdd_HHmmss"</span>)</span>.format(<span class="keyword">new</span> Date());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  637 </span>   <span class="comment">//String fileName = "IMG_" + timeStamp + (this.encodingType == JPEG ? ".jpg" : ".png");</span>
+<span class="lineno">  638 </span>   String modifiedPath = getTempDirectoryPath() + <span class="string">"/"</span> + fileName;
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/camera/CameraLauncher.java">../../src/main/java/org/apache/cordova/camera/CameraLauncher.java</a>:970</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
+<span class="lineno">  967 </span>  InputStream fileStream = FileHelper.getInputStreamFromUriString(imageUrl, cordova);
+<span class="lineno">  968 </span>  <span class="keyword">if</span> (fileStream != <span class="keyword">null</span>) {
+<span class="lineno">  969 </span>      <span class="comment">// Generate a temporary file</span>
+<span class="caretline"><span class="lineno">  970 </span>      String timeStamp = <span class="warning"><span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyyMMdd_HHmmss"</span>)</span>.format(<span class="keyword">new</span> Date());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  971 </span>      String fileName = <span class="string">"IMG_"</span> + timeStamp + (<span class="keyword">this</span>.encodingType == JPEG ? <span class="string">".jpg"</span> : <span class="string">".png"</span>);
+<span class="lineno">  972 </span>      localFile = <span class="keyword">new</span> File(getTempDirectoryPath() + fileName);
+<span class="lineno">  973 </span>      galleryUri = Uri.fromFile(localFile);
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/globalization/Globalization.java">../../src/main/java/org/apache/cordova/globalization/Globalization.java</a>:239</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
+<span class="lineno"> 236 </span>
+<span class="lineno"> 237 </span>  <span class="comment">//get formatting pattern from android device (Will only have device specific formatting for short form of date) or options supplied</span>
+<span class="lineno"> 238 </span>  JSONObject datePattern = getDatePattern(options);
+<span class="caretline"><span class="lineno"> 239 </span>  SimpleDateFormat fmt = <span class="warning"><span class="keyword">new</span> SimpleDateFormat(datePattern.getString(<span class="string">"pattern"</span>))</span>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 240 </span>
+<span class="lineno"> 241 </span>  <span class="comment">//return formatted date</span>
+<span class="lineno"> 242 </span>  <span class="keyword">return</span> obj.put(<span class="string">"value"</span>,fmt.format(date));
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/globalization/Globalization.java">../../src/main/java/org/apache/cordova/globalization/Globalization.java</a>:268</span>: <span class="message">To get local formatting use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code>, or use <code>new SimpleDateFormat(String template, Locale locale)</code> with for example <code>Locale.US</code> for ASCII dates.</span><br /><pre class="errorlines">
+<span class="lineno"> 265 </span>  Date date;
+<span class="lineno"> 266 </span>  <span class="keyword">try</span>{
+<span class="lineno"> 267 </span>      <span class="comment">//get format pattern from android device (Will only have device specific formatting for short form of date) or options supplied</span>
+<span class="caretline"><span class="lineno"> 268 </span>      DateFormat fmt = <span class="warning"><span class="keyword">new</span> SimpleDateFormat(getDatePattern(options).getString(<span class="string">"pattern"</span>))</span>;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 269 </span>
+<span class="lineno"> 270 </span>      <span class="comment">//attempt parsing string based on user preferences</span>
+<span class="lineno"> 271 </span>      date = fmt.parse(options.getJSONObject(<span class="number">0</span>).get(DATESTRING).toString());
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationSimpleDateFormat" style="display: none;">
+Almost all callers should use <code>getDateInstance()</code>, <code>getDateTimeInstance()</code>, or <code>getTimeInstance()</code> to get a ready-made instance of SimpleDateFormat suitable for the user's locale. The main reason you'd create an instance this class directly is because you need to format/parse a specific machine-readable format, in which case you almost certainly want to explicitly ask for US to ensure that you get ASCII digits (rather than, say, Arabic digits).<br/>
+<br/>
+Therefore, you should either use the form of the SimpleDateFormat constructor where you pass in an explicit locale, such as Locale.US, or use one of the get instance methods, or suppress this error if really know what you are doing.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/java/text/SimpleDateFormat.html">http://developer.android.com/reference/java/text/SimpleDateFormat.html</a>
+</div>To suppress this error, use the issue id "SimpleDateFormat" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">SimpleDateFormat</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 6/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationSimpleDateFormatLink" onclick="reveal('explanationSimpleDateFormat');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="SimpleDateFormatCardLink" onclick="hideid('SimpleDateFormatCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="ManifestOrder"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="ManifestOrderCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Incorrect order of elements in manifest</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:16</span>: <span class="message"><code>&lt;uses-sdk></code> tag appears after <code>&lt;application></code> tag</span><br /><pre class="errorlines">
+<span class="lineno"> 13 </span>          <span class="tag">&lt;meta-data</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.support.FILE_PROVIDER_PATHS"</span> <span class="prefix">android:</span><span class="attribute">resource</span>=<span class="value">"@xml/provider_paths"</span> />
+<span class="lineno"> 14 </span>      <span class="tag">&lt;/provider></span>
+<span class="lineno"> 15 </span>  <span class="tag">&lt;/application></span>
+<span class="caretline"><span class="lineno"> 16 </span>  <span class="warning"><span class="tag">&lt;uses-sdk</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">minSdkVersion</span>=<span class="value">"14"</span> <span class="prefix">android:</span><span class="attribute">targetSdkVersion</span>=<span class="value">"27"</span> /></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 17 </span>  <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.WRITE_EXTERNAL_STORAGE"</span> />
+<span class="lineno"> 18 </span>  <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.ACCESS_COARSE_LOCATION"</span> />
+<span class="lineno"> 19 </span>  <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.ACCESS_FINE_LOCATION"</span> />
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationManifestOrder" style="display: none;">
+The &lt;application> tag should appear after the elements which declare which version you need, which features you need, which libraries you need, and so on. In the past there have been subtle bugs (such as themes not getting applied correctly) when the <code>&lt;application></code> tag appears before some of these other elements, so it's best to order your manifest in the logical dependency order.<br/>To suppress this error, use the issue id "ManifestOrder" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">ManifestOrder</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 5/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationManifestOrderLink" onclick="reveal('explanationManifestOrder');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="ManifestOrderCardLink" onclick="hideid('ManifestOrderCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="GradleDependency"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="GradleDependencyCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Obsolete Gradle Dependency</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:32</span>: <span class="message">A newer version of com.android.tools.build:gradle than 3.0.1 is available: 3.5.2</span><br /><pre class="errorlines">
+<span class="lineno">  29 </span>    }
+<span class="lineno">  30 </span>
+<span class="lineno">  31 </span>    dependencies {
+<span class="caretline"><span class="lineno">  32 </span>        <span class="warning">classpath <span class="string">'com.android.tools.build:gradle:3.0.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  33 </span>    }
+<span class="lineno">  34 </span>}
+</pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:268</span>: <span class="message">A newer version of com.android.support:support-v4 than 24.1.1.+ is available: 25.3.1</span><br /><pre class="errorlines">
+<span class="lineno"> 265 </span>    implementation fileTree(dir: <span class="string">'libs'</span>, include: <span class="string">'*.jar'</span>)
+<span class="lineno"> 266 </span>    <span class="comment">// SUB-PROJECT DEPENDENCIES START</span>
+<span class="lineno"> 267 </span>    implementation(project(path: <span class="string">":CordovaLib"</span>))
+<span class="caretline"><span class="lineno"> 268 </span>    <span class="warning">compile <span class="string">"com.android.support:support-v4:24.1.1+"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 269 </span>    <span class="comment">// SUB-PROJECT DEPENDENCIES END</span>
+<span class="lineno"> 270 </span>}
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationGradleDependency" style="display: none;">
+This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "GradleDependency" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">GradleDependency</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 4/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGradleDependencyLink" onclick="reveal('explanationGradleDependency');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleDependencyCardLink" onclick="hideid('GradleDependencyCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="GradleDynamicVersion"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="GradleDynamicVersionCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Gradle Dynamic Version</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:268</span>: <span class="message">Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (com.android.support:support-v4:24.1.1+)</span><br /><pre class="errorlines">
+<span class="lineno"> 265 </span>    implementation fileTree(dir: <span class="string">'libs'</span>, include: <span class="string">'*.jar'</span>)
+<span class="lineno"> 266 </span>    <span class="comment">// SUB-PROJECT DEPENDENCIES START</span>
+<span class="lineno"> 267 </span>    implementation(project(path: <span class="string">":CordovaLib"</span>))
+<span class="caretline"><span class="lineno"> 268 </span>    <span class="warning">compile <span class="string">"com.android.support:support-v4:24.1.1+"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 269 </span>    <span class="comment">// SUB-PROJECT DEPENDENCIES END</span>
+<span class="lineno"> 270 </span>}
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationGradleDynamicVersion" style="display: none;">
+Using <code>+</code> in dependencies lets you automatically pick up the latest available version rather than a specific, named version. However, this is not recommended; your builds are not repeatable; you may have tested with a slightly different version than what the build server used. (Using a dynamic version as the major version number is more problematic than using it in the minor version position.)<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "GradleDynamicVersion" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">GradleDynamicVersion</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 4/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGradleDynamicVersionLink" onclick="reveal('explanationGradleDynamicVersion');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleDynamicVersionCardLink" onclick="hideid('GradleDynamicVersionCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="GradleOverrides"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="GradleOverridesCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Value overridden by Gradle build script</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:2</span>: <span class="message">This <code>versionCode</code> value (<code>10000</code>) is not used; it is always overridden by the value specified in the Gradle build script (<code>10000</code>)</span><br /><pre class="errorlines">
+<span class="lineno">  1 </span><span class="prologue">&lt;?xml version='1.0' encoding='utf-8'?></span>
+<span class="caretline"><span class="lineno">  2 </span><span class="tag">&lt;manifest</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">hardwareAccelerated</span>=<span class="value">"true"</span> <span class="warning"><span class="prefix">android:</span><span class="attribute">versionCode</span>=<span class="value">"10000"</span></span> <span class="prefix">android:</span><span class="attribute">versionName</span>=<span class="value">"1.0.0"</span> <span class="attribute">package</span>=<span class="value">"com.phonegap.batteryandnetwork"</span> <span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>></span>
+<span class="lineno">  3 </span>    <span class="tag">&lt;supports-screens</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">anyDensity</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">largeScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">normalScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">resizeable</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">smallScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">xlargeScreens</span>=<span class="value">"true"</span> />
+<span class="lineno">  4 </span>    <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.INTERNET"</span> />
+<span class="lineno">  5 </span>    <span class="tag">&lt;application</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">hardwareAccelerated</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">icon</span>=<span class="value">"@mipmap/icon"</span> <span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/app_name"</span> <span class="prefix">android:</span><span class="attribute">supportsRtl</span>=<span class="value">"true"</span>>
+</pre>
+
+<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:16</span>: <span class="message">This <code>minSdkVersion</code> value (<code>14</code>) is not used; it is always overridden by the value specified in the Gradle build script (<code>19</code>)</span><br /><pre class="errorlines">
+<span class="lineno"> 13 </span>          <span class="tag">&lt;meta-data</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.support.FILE_PROVIDER_PATHS"</span> <span class="prefix">android:</span><span class="attribute">resource</span>=<span class="value">"@xml/provider_paths"</span> />
+<span class="lineno"> 14 </span>      <span class="tag">&lt;/provider></span>
+<span class="lineno"> 15 </span>  <span class="tag">&lt;/application></span>
+<span class="caretline"><span class="lineno"> 16 </span>  <span class="tag">&lt;uses-sdk</span><span class="attribute"> </span><span class="warning"><span class="prefix">android:</span><span class="attribute">minSdkVersion</span>=<span class="value">"14"</span></span> <span class="prefix">android:</span><span class="attribute">targetSdkVersion</span>=<span class="value">"27"</span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 17 </span>  <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.WRITE_EXTERNAL_STORAGE"</span> />
+<span class="lineno"> 18 </span>  <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.ACCESS_COARSE_LOCATION"</span> />
+<span class="lineno"> 19 </span>  <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.ACCESS_FINE_LOCATION"</span> />
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationGradleOverrides" style="display: none;">
+The value of (for example) <code>minSdkVersion</code> is only used if it is not specified in the <code>build.gradle</code> build scripts. When specified in the Gradle build scripts, the manifest value is ignored and can be misleading, so should be removed to avoid ambiguity.<br/>To suppress this error, use the issue id "GradleOverrides" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">GradleOverrides</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 4/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGradleOverridesLink" onclick="reveal('explanationGradleOverrides');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleOverridesCardLink" onclick="hideid('GradleOverridesCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Security"></a>
+<a name="HardwareIds"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="HardwareIdsCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Hardware Id Usage</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/org/apache/cordova/device/Device.java">../../src/main/java/org/apache/cordova/device/Device.java</a>:112</span>: <span class="message">Using <code>getString</code> to get device identifiers is not recommended.</span><br /><pre class="errorlines">
+<span class="lineno"> 109 </span><span class="javadoc">   * @return
+</span><span class="lineno"> 110 </span><span class="javadoc">   */</span>
+<span class="lineno"> 111 </span>  <span class="keyword">public</span> String getUuid() {
+<span class="caretline"><span class="lineno"> 112 </span>      String uuid = <span class="warning">Settings.Secure.getString(<span class="keyword">this</span>.cordova.getActivity().getContentResolver(), android.provider.Settings.Secure.ANDROID_ID)</span>;</span>
+<span class="lineno"> 113 </span>      <span class="keyword">return</span> uuid;
+<span class="lineno"> 114 </span>  }
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/device/Device.java">../../src/main/java/org/apache/cordova/device/Device.java</a>:132</span>: <span class="message">Using <code>SERIAL</code> to get device identifiers is not recommended.</span><br /><pre class="errorlines">
+<span class="lineno"> 129 </span>    }
+<span class="lineno"> 130 </span>
+<span class="lineno"> 131 </span>    <span class="keyword">public</span> String getSerialNumber() {
+<span class="caretline"><span class="lineno"> 132 </span>        String serial = android.os.Build.<span class="warning">SERIAL</span>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 133 </span>        <span class="keyword">return</span> serial;
+<span class="lineno"> 134 </span>    }
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationHardwareIds" style="display: none;">
+Using these device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use <code>AdvertisingIdClient$Info#getId</code> and for analytics, use <code>InstanceId#getId</code>.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/training/articles/user-data-ids.html">https://developer.android.com/training/articles/user-data-ids.html</a>
+</div>To suppress this error, use the issue id "HardwareIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">HardwareIds</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Security</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 6/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationHardwareIdsLink" onclick="reveal('explanationHardwareIds');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="HardwareIdsCardLink" onclick="hideid('HardwareIdsCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="SetWorldWritable"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="SetWorldWritableCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">File.setWritable() used to make file world-writable</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/org/apache/cordova/mediacapture/Capture.java">../../src/main/java/org/apache/cordova/mediacapture/Capture.java</a>:287</span>: <span class="message">Setting file permissions to world-writable can be risky, review carefully</span><br /><pre class="errorlines">
+<span class="lineno"> 284 </span>
+<span class="lineno"> 285 </span>    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> createWritableFile(File file) <span class="keyword">throws</span> IOException {
+<span class="lineno"> 286 </span>        file.createNewFile();
+<span class="caretline"><span class="lineno"> 287 </span>        <span class="warning">file.setWritable(<span class="keyword">true</span>, <span class="keyword">false</span>)</span>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 288 </span>    }
+<span class="lineno"> 289 </span>
+<span class="lineno"> 290 </span>    <span class="javadoc">/**
+</span></pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationSetWorldWritable" style="display: none;">
+Setting files world-writable is very dangerous, and likely to cause security holes in applications. It is strongly discouraged; instead, applications should use more formal mechanisms for interactions such as <code>ContentProvider</code>, <code>BroadcastReceiver</code>, and <code>Service</code>.<br/>To suppress this error, use the issue id "SetWorldWritable" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">SetWorldWritable</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Security</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 6/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationSetWorldWritableLink" onclick="reveal('explanationSetWorldWritable');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="SetWorldWritableCardLink" onclick="hideid('SetWorldWritableCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="AllowBackup"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="AllowBackupCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">AllowBackup/FullBackupContent Problems</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:5</span>: <span class="message">On SDK version 23 and up, your app data will be automatically backed up and restored on app install. Consider adding the attribute <code>android:fullBackupContent</code> to specify an <code>@xml</code> resource which configures which files to backup. More info: <a href="https://developer.android.com/training/backup/autosyncapi.html">https://developer.android.com/training/backup/autosyncapi.html</a></span><br /><pre class="errorlines">
+<span class="lineno">  2 </span><span class="tag">&lt;manifest</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">hardwareAccelerated</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">versionCode</span>=<span class="value">"10000"</span> <span class="prefix">android:</span><span class="attribute">versionName</span>=<span class="value">"1.0.0"</span> <span class="attribute">package</span>=<span class="value">"com.phonegap.batteryandnetwork"</span> <span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>>
+<span class="lineno">  3 </span>    <span class="tag">&lt;supports-screens</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">anyDensity</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">largeScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">normalScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">resizeable</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">smallScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">xlargeScreens</span>=<span class="value">"true"</span> />
+<span class="lineno">  4 </span>    <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.INTERNET"</span> />
+<span class="caretline"><span class="lineno">  5 </span>    <span class="warning"><span class="tag">&lt;application</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">hardwareAccelerated</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">icon</span>=<span class="value">"@mipmap/icon"</span> <span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/app_name"</span> <span class="prefix">android:</span><span class="attribute">supportsRtl</span>=<span class="value">"true"</span>></span></span>
+<span class="lineno">  6 </span>        <span class="tag">&lt;activity</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">configChanges</span>=<span class="value">"orientation|keyboardHidden|keyboard|screenSize|locale"</span> <span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/activity_name"</span> <span class="prefix">android:</span><span class="attribute">launchMode</span>=<span class="value">"singleTop"</span> <span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"MainActivity"</span> <span class="prefix">android:</span><span class="attribute">theme</span>=<span class="value">"@android:style/Theme.DeviceDefault.NoActionBar"</span> <span class="prefix">android:</span><span class="attribute">windowSoftInputMode</span>=<span class="value">"adjustResize"</span>>
+<span class="lineno">  7 </span>            <span class="tag">&lt;intent-filter</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/launcher_name"</span>>
+<span class="lineno">  8 </span>                <span class="tag">&lt;action</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.intent.action.MAIN"</span> />
+</pre>
+
+<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:5</span>: <span class="message">Should explicitly set <code>android:allowBackup</code> to <code>true</code> or <code>false</code> (it's <code>true</code> by default, and that can have some security implications for the application's data)</span><br /><pre class="errorlines">
+<span class="lineno">  2 </span><span class="tag">&lt;manifest</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">hardwareAccelerated</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">versionCode</span>=<span class="value">"10000"</span> <span class="prefix">android:</span><span class="attribute">versionName</span>=<span class="value">"1.0.0"</span> <span class="attribute">package</span>=<span class="value">"com.phonegap.batteryandnetwork"</span> <span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>>
+<span class="lineno">  3 </span>    <span class="tag">&lt;supports-screens</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">anyDensity</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">largeScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">normalScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">resizeable</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">smallScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">xlargeScreens</span>=<span class="value">"true"</span> />
+<span class="lineno">  4 </span>    <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.INTERNET"</span> />
+<span class="caretline"><span class="lineno">  5 </span>    <span class="warning"><span class="tag">&lt;application</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">hardwareAccelerated</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">icon</span>=<span class="value">"@mipmap/icon"</span> <span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/app_name"</span> <span class="prefix">android:</span><span class="attribute">supportsRtl</span>=<span class="value">"true"</span>></span></span>
+<span class="lineno">  6 </span>        <span class="tag">&lt;activity</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">configChanges</span>=<span class="value">"orientation|keyboardHidden|keyboard|screenSize|locale"</span> <span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/activity_name"</span> <span class="prefix">android:</span><span class="attribute">launchMode</span>=<span class="value">"singleTop"</span> <span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"MainActivity"</span> <span class="prefix">android:</span><span class="attribute">theme</span>=<span class="value">"@android:style/Theme.DeviceDefault.NoActionBar"</span> <span class="prefix">android:</span><span class="attribute">windowSoftInputMode</span>=<span class="value">"adjustResize"</span>>
+<span class="lineno">  7 </span>            <span class="tag">&lt;intent-filter</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/launcher_name"</span>>
+<span class="lineno">  8 </span>                <span class="tag">&lt;action</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.intent.action.MAIN"</span> />
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationAllowBackup" style="display: none;">
+The <code>allowBackup</code> attribute determines if an application's data can be backed up and restored. It is documented at <a href="http://developer.android.com/reference/android/R.attr.html#allowBackup">http://developer.android.com/reference/android/R.attr.html#allowBackup</a><br/>
+<br/>
+By default, this flag is set to <code>true</code>. When this flag is set to <code>true</code>, application data can be backed up and restored by the user using <code>adb backup</code> and <code>adb restore</code>.<br/>
+<br/>
+This may have security consequences for an application. <code>adb backup</code> allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. <code>adb restore</code> allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself.<br/>
+<br/>
+Setting <code>allowBackup="false"</code> opts an application out of both backup and restore.<br/>
+<br/>
+To fix this warning, decide whether your application should support backup, and explicitly set <code>android:allowBackup=(true|false)"</code>.<br/>
+<br/>
+If not set to false, and if targeting API 23 or later, lint will also warn that you should set <code>android:fullBackupContent</code> to configure auto backup.<br/><div class="moreinfo">More info: <ul><li><a href="https://developer.android.com/training/backup/autosyncapi.html">https://developer.android.com/training/backup/autosyncapi.html</a>
+<li><a href="http://developer.android.com/reference/android/R.attr.html#allowBackup">http://developer.android.com/reference/android/R.attr.html#allowBackup</a>
+</ul></div>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "AllowBackup" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">AllowBackup</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Security</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 3/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationAllowBackupLink" onclick="reveal('explanationAllowBackup');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="AllowBackupCardLink" onclick="hideid('AllowBackupCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Performance"></a>
+<a name="Recycle"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="RecycleCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Missing recycle() calls</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/org/apache/cordova/camera/FileHelper.java">../../src/main/java/org/apache/cordova/camera/FileHelper.java</a>:150</span>: <span class="message">This <code>Cursor</code> should be freed up after use with <code>#close()</code></span><br /><pre class="errorlines">
+<span class="lineno"> 147 </span>  String result = <span class="keyword">null</span>;
+<span class="lineno"> 148 </span>
+<span class="lineno"> 149 </span>  <span class="keyword">try</span> {
+<span class="caretline"><span class="lineno"> 150 </span>      Cursor cursor = context.getContentResolver().<span class="warning">query</span>(contentUri, proj, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>);&nbsp;</span>
+<span class="lineno"> 151 </span>      <span class="keyword">int</span> column_index = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+<span class="lineno"> 152 </span>      cursor.moveToFirst();
+<span class="lineno"> 153 </span>      result = cursor.getString(column_index);
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationRecycle" style="display: none;">
+Many resources, such as TypedArrays, VelocityTrackers, etc., should be recycled (with a <code>recycle()</code> call) after use. This lint check looks for missing <code>recycle()</code> calls.<br/>To suppress this error, use the issue id "Recycle" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Recycle</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Performance</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 7/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationRecycleLink" onclick="reveal('explanationRecycle');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="RecycleCardLink" onclick="hideid('RecycleCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="ObsoleteSdkInt"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="ObsoleteSdkIntCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Obsolete SDK_INT Version Check</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/org/apache/cordova/mediacapture/Capture.java">../../src/main/java/org/apache/cordova/mediacapture/Capture.java</a>:299</span>: <span class="message">Unnecessary; SDK_INT is always >= 19</span><br /><pre class="errorlines">
+<span class="lineno"> 296 </span>        } <span class="keyword">else</span> {
+<span class="lineno"> 297 </span>            Intent intent = <span class="keyword">new</span> Intent(android.provider.MediaStore.ACTION_VIDEO_CAPTURE);
+<span class="lineno"> 298 </span>
+<span class="caretline"><span class="lineno"> 299 </span>            <span class="keyword">if</span>(<span class="warning">Build.VERSION.SDK_INT > <span class="number">7</span></span>){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 300 </span>                intent.putExtra(<span class="string">"android.intent.extra.durationLimit"</span>, req.duration);
+<span class="lineno"> 301 </span>                intent.putExtra(<span class="string">"android.intent.extra.videoQuality"</span>, req.quality);
+<span class="lineno"> 302 </span>            }
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/camera/FileHelper.java">../../src/main/java/org/apache/cordova/camera/FileHelper.java</a>:55</span>: <span class="message">Unnecessary; SDK_INT is never &lt; 19</span><br /><pre class="errorlines">
+<span class="lineno">  52 </span>    <span class="keyword">public</span> <span class="keyword">static</span> String getRealPath(Uri uri, CordovaInterface cordova) {
+<span class="lineno">  53 </span>        String realPath = <span class="keyword">null</span>;
+<span class="lineno">  54 </span>
+<span class="caretline"><span class="lineno">  55 </span>        <span class="keyword">if</span> (<span class="warning">Build.VERSION.SDK_INT &lt; <span class="number">11</span></span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  56 </span>            realPath = FileHelper.getRealPathFromURI_BelowAPI11(cordova.getActivity(), uri);
+<span class="lineno">  57 </span>
+<span class="lineno">  58 </span>        <span class="comment">// SDK >= 11</span></pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/globalization/Globalization.java">../../src/main/java/org/apache/cordova/globalization/Globalization.java</a>:105</span>: <span class="message">Unnecessary; SDK_INT is never &lt; 19</span><br /><pre class="errorlines">
+<span class="lineno"> 102 </span>  }<span class="keyword">else</span> <span class="keyword">if</span>(action.equalsIgnoreCase(GETDATEPATTERN)){
+<span class="lineno"> 103 </span>      obj = getDatePattern(data);
+<span class="lineno"> 104 </span>  }<span class="keyword">else</span> <span class="keyword">if</span>(action.equalsIgnoreCase(GETDATENAMES)){
+<span class="caretline"><span class="lineno"> 105 </span>      <span class="keyword">if</span> (<span class="warning">android.os.Build.VERSION.SDK_INT &lt; android.os.Build.VERSION_CODES.GINGERBREAD</span>) {</span>
+<span class="lineno"> 106 </span>          <span class="keyword">throw</span> <span class="keyword">new</span> GlobalizationError(GlobalizationError.UNKNOWN_ERROR);
+<span class="lineno"> 107 </span>      } <span class="keyword">else</span> {
+<span class="lineno"> 108 </span>          obj = getDateNames(data);
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java">../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java</a>:350</span>: <span class="message">Unnecessary; SDK_INT is never &lt; 19</span><br /><pre class="errorlines">
+<span class="lineno">  347 </span>  <span class="annotation">@SuppressLint</span>(<span class="string">"NewApi"</span>)
+<span class="lineno">  348 </span>  <span class="annotation">@Override</span>
+<span class="lineno">  349 </span>  <span class="keyword">public</span> <span class="keyword">void</span> run() {
+<span class="caretline"><span class="lineno">  350 </span>      <span class="keyword">if</span> (<span class="warning">Build.VERSION.SDK_INT &lt; Build.VERSION_CODES.KITKAT</span>) {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  351 </span>          <span class="comment">// This action will have the side-effect of blurring the currently focused element</span>
+<span class="lineno">  352 </span>          inAppWebView.loadUrl(<span class="string">"javascript:"</span> + finalScriptToInject);
+<span class="lineno">  353 </span>      } <span class="keyword">else</span> {
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java">../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java</a>:638</span>: <span class="message">Unnecessary; SDK_INT is always >= 19</span><br /><pre class="errorlines">
+<span class="lineno">  635 </span>  Resources activityRes = cordova.getActivity().getResources();
+<span class="lineno">  636 </span>  <span class="keyword">int</span> backResId = activityRes.getIdentifier(<span class="string">"ic_action_previous_item"</span>, <span class="string">"drawable"</span>, cordova.getActivity().getPackageName());
+<span class="lineno">  637 </span>  Drawable backIcon = activityRes.getDrawable(backResId);
+<span class="caretline"><span class="lineno">  638 </span>  <span class="keyword">if</span> (<span class="warning">Build.VERSION.SDK_INT >= <span class="number">16</span></span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  639 </span>      back.setBackground(<span class="keyword">null</span>);
+<span class="lineno">  640 </span>  <span class="keyword">else</span>
+<span class="lineno">  641 </span>      back.setBackgroundDrawable(<span class="keyword">null</span>);
+</pre>
+
+<button class="mdl-button mdl-js-button mdl-button--primary" id="ObsoleteSdkIntDivLink" onclick="reveal('ObsoleteSdkIntDiv');" />+ 6 More Occurrences...</button>
+<div id="ObsoleteSdkIntDiv" style="display: none">
+<span class="location"><a href="../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java">../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java</a>:645</span>: <span class="message">Unnecessary; SDK_INT is always >= 19</span><br /><pre class="errorlines">
+<span class="lineno">  642 </span>                back.setImageDrawable(backIcon);
+<span class="lineno">  643 </span>                back.setScaleType(ImageView.ScaleType.FIT_CENTER);
+<span class="lineno">  644 </span>                back.setPadding(<span class="number">0</span>, <span class="keyword">this</span>.dpToPixels(<span class="number">10</span>), <span class="number">0</span>, <span class="keyword">this</span>.dpToPixels(<span class="number">10</span>));
+<span class="caretline"><span class="lineno">  645 </span>                <span class="keyword">if</span> (<span class="warning">Build.VERSION.SDK_INT >= <span class="number">16</span></span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  646 </span>                    back.getAdjustViewBounds();
+<span class="lineno">  647 </span>
+<span class="lineno">  648 </span>                back.setOnClickListener(<span class="keyword">new</span> View.OnClickListener() {
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java">../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java</a>:663</span>: <span class="message">Unnecessary; SDK_INT is always >= 19</span><br /><pre class="errorlines">
+<span class="lineno">  660 </span>  forward.setId(Integer.valueOf(<span class="number">3</span>));
+<span class="lineno">  661 </span>  <span class="keyword">int</span> fwdResId = activityRes.getIdentifier(<span class="string">"ic_action_next_item"</span>, <span class="string">"drawable"</span>, cordova.getActivity().getPackageName());
+<span class="lineno">  662 </span>  Drawable fwdIcon = activityRes.getDrawable(fwdResId);
+<span class="caretline"><span class="lineno">  663 </span>  <span class="keyword">if</span> (<span class="warning">Build.VERSION.SDK_INT >= <span class="number">16</span></span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  664 </span>      forward.setBackground(<span class="keyword">null</span>);
+<span class="lineno">  665 </span>  <span class="keyword">else</span>
+<span class="lineno">  666 </span>      forward.setBackgroundDrawable(<span class="keyword">null</span>);
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java">../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java</a>:670</span>: <span class="message">Unnecessary; SDK_INT is always >= 19</span><br /><pre class="errorlines">
+<span class="lineno">  667 </span>               forward.setImageDrawable(fwdIcon);
+<span class="lineno">  668 </span>               forward.setScaleType(ImageView.ScaleType.FIT_CENTER);
+<span class="lineno">  669 </span>               forward.setPadding(<span class="number">0</span>, <span class="keyword">this</span>.dpToPixels(<span class="number">10</span>), <span class="number">0</span>, <span class="keyword">this</span>.dpToPixels(<span class="number">10</span>));
+<span class="caretline"><span class="lineno">  670 </span>               <span class="keyword">if</span> (<span class="warning">Build.VERSION.SDK_INT >= <span class="number">16</span></span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  671 </span>                   forward.getAdjustViewBounds();
+<span class="lineno">  672 </span>
+<span class="lineno">  673 </span>               forward.setOnClickListener(<span class="keyword">new</span> View.OnClickListener() {
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java">../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java</a>:711</span>: <span class="message">Unnecessary; SDK_INT is always >= 19</span><br /><pre class="errorlines">
+<span class="lineno">  708 </span>  close.setId(Integer.valueOf(<span class="number">5</span>));
+<span class="lineno">  709 </span>  <span class="keyword">int</span> closeResId = activityRes.getIdentifier(<span class="string">"ic_action_remove"</span>, <span class="string">"drawable"</span>, cordova.getActivity().getPackageName());
+<span class="lineno">  710 </span>  Drawable closeIcon = activityRes.getDrawable(closeResId);
+<span class="caretline"><span class="lineno">  711 </span>  <span class="keyword">if</span> (<span class="warning">Build.VERSION.SDK_INT >= <span class="number">16</span></span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  712 </span>      close.setBackground(<span class="keyword">null</span>);
+<span class="lineno">  713 </span>  <span class="keyword">else</span>
+<span class="lineno">  714 </span>      close.setBackgroundDrawable(<span class="keyword">null</span>);
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java">../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java</a>:718</span>: <span class="message">Unnecessary; SDK_INT is always >= 19</span><br /><pre class="errorlines">
+<span class="lineno">  715 </span>                close.setImageDrawable(closeIcon);
+<span class="lineno">  716 </span>                close.setScaleType(ImageView.ScaleType.FIT_CENTER);
+<span class="lineno">  717 </span>                back.setPadding(<span class="number">0</span>, <span class="keyword">this</span>.dpToPixels(<span class="number">10</span>), <span class="number">0</span>, <span class="keyword">this</span>.dpToPixels(<span class="number">10</span>));
+<span class="caretline"><span class="lineno">  718 </span>                <span class="keyword">if</span> (<span class="warning">Build.VERSION.SDK_INT >= <span class="number">16</span></span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  719 </span>                    close.getAdjustViewBounds();
+<span class="lineno">  720 </span>
+<span class="lineno">  721 </span>                close.setOnClickListener(<span class="keyword">new</span> View.OnClickListener() {
+</pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java">../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java</a>:782</span>: <span class="message">Unnecessary; SDK_INT is always >= 19</span><br /><pre class="errorlines">
+<span class="lineno">  779 </span>  settings.setBuiltInZoomControls(showZoomControls);
+<span class="lineno">  780 </span>  settings.setPluginState(android.webkit.WebSettings.PluginState.ON);
+<span class="lineno">  781 </span>
+<span class="caretline"><span class="lineno">  782 </span>  <span class="keyword">if</span>(<span class="warning">android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN_MR1</span>) {</span>
+<span class="lineno">  783 </span>      settings.setMediaPlaybackRequiresUserGesture(mediaPlaybackRequiresUserGesture);
+<span class="lineno">  784 </span>  }
+</pre>
+
+</div>
+</div>
+<div class="metadata"><div class="explanation" id="explanationObsoleteSdkInt" style="display: none;">
+This check flags version checks that are not necessary, because the <code>minSdkVersion</code> (or surrounding known API level) is already at least as high as the version checked for.<br/>
+<br/>
+Similarly, it also looks for resources in <code>-vNN</code> folders, such as <code>values-v14</code> where the version qualifier is less than or equal to the <code>minSdkVersion</code>, where the contents should be merged into the best folder.<br/>To suppress this error, use the issue id "ObsoleteSdkInt" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">ObsoleteSdkInt</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Performance</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 6/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationObsoleteSdkIntLink" onclick="reveal('explanationObsoleteSdkInt');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="ObsoleteSdkIntCardLink" onclick="hideid('ObsoleteSdkIntCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="UnusedResources"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="UnusedResourcesCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Unused resources</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/xml/config.xml">../../src/main/res/xml/config.xml</a>:2</span>: <span class="message">The resource <code>R.xml.config</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  1 </span><span class="prologue">&lt;?xml version='1.0' encoding='utf-8'?></span>
+<span class="caretline"><span class="lineno">  2 </span><span class="warning"><span class="tag">&lt;widget</span><span class="attribute"> id</span>=<span class="value">"com.phonegap.batteryandnetwork"</span> <span class="attribute">version</span>=<span class="value">"1.0.0"</span> <span class="attribute">xmlns</span>=<span class="value">"http://www.w3.org/ns/widgets"</span> <span class="prefix">xmlns:</span><span class="attribute">gap</span>=<span class="value">"http://phonegap.com/ns/1.0"</span>></span></span>
+<span class="lineno">  3 </span>    <span class="tag">&lt;feature</span><span class="attribute"> name</span>=<span class="value">"Battery"</span>>
+<span class="lineno">  4 </span>        <span class="tag">&lt;param</span><span class="attribute"> name</span>=<span class="value">"android-package"</span> <span class="attribute">value</span>=<span class="value">"org.apache.cordova.batterystatus.BatteryListener"</span> />
+<span class="lineno">  5 </span>    <span class="tag">&lt;/feature></span></pre>
+
+<span class="location"><a href="../../src/main/res/drawable-hdpi/ic_action_next_item.png">../../src/main/res/drawable-hdpi/ic_action_next_item.png</a></span>: <span class="message">The resource <code>R.drawable.ic_action_next_item</code> appears to be unused</span><br />
+<ul></ul><button id="Location2DivLink" onclick="reveal('Location2Div');" />+ 3 Additional Locations...</button>
+<div id="Location2Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-mdpi/ic_action_next_item.png">../../src/main/res/drawable-mdpi/ic_action_next_item.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-xhdpi/ic_action_next_item.png">../../src/main/res/drawable-xhdpi/ic_action_next_item.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-xxhdpi/ic_action_next_item.png">../../src/main/res/drawable-xxhdpi/ic_action_next_item.png</a></span>
+</ul>
+</div><br/><br/>
+<table>
+<tr><td><a href="../../src/main/res/drawable-mdpi/ic_action_next_item.png"><img border="0" align="top" src="../../src/main/res/drawable-mdpi/ic_action_next_item.png" /></a>
+</td><td><a href="../../src/main/res/drawable-hdpi/ic_action_next_item.png"><img border="0" align="top" src="../../src/main/res/drawable-hdpi/ic_action_next_item.png" /></a>
+</td><td><a href="../../src/main/res/drawable-xhdpi/ic_action_next_item.png"><img border="0" align="top" src="../../src/main/res/drawable-xhdpi/ic_action_next_item.png" /></a>
+</td><td><a href="../../src/main/res/drawable-xxhdpi/ic_action_next_item.png"><img border="0" align="top" src="../../src/main/res/drawable-xxhdpi/ic_action_next_item.png" /></a>
+</td></tr><tr><th>mdpi</th><th>hdpi</th><th>xhdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/ic_action_previous_item.png">../../src/main/res/drawable-hdpi/ic_action_previous_item.png</a></span>: <span class="message">The resource <code>R.drawable.ic_action_previous_item</code> appears to be unused</span><br />
+<ul></ul><button id="Location3DivLink" onclick="reveal('Location3Div');" />+ 3 Additional Locations...</button>
+<div id="Location3Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-mdpi/ic_action_previous_item.png">../../src/main/res/drawable-mdpi/ic_action_previous_item.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-xhdpi/ic_action_previous_item.png">../../src/main/res/drawable-xhdpi/ic_action_previous_item.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-xxhdpi/ic_action_previous_item.png">../../src/main/res/drawable-xxhdpi/ic_action_previous_item.png</a></span>
+</ul>
+</div><br/><br/>
+<table>
+<tr><td><a href="../../src/main/res/drawable-mdpi/ic_action_previous_item.png"><img border="0" align="top" src="../../src/main/res/drawable-mdpi/ic_action_previous_item.png" /></a>
+</td><td><a href="../../src/main/res/drawable-hdpi/ic_action_previous_item.png"><img border="0" align="top" src="../../src/main/res/drawable-hdpi/ic_action_previous_item.png" /></a>
+</td><td><a href="../../src/main/res/drawable-xhdpi/ic_action_previous_item.png"><img border="0" align="top" src="../../src/main/res/drawable-xhdpi/ic_action_previous_item.png" /></a>
+</td><td><a href="../../src/main/res/drawable-xxhdpi/ic_action_previous_item.png"><img border="0" align="top" src="../../src/main/res/drawable-xxhdpi/ic_action_previous_item.png" /></a>
+</td></tr><tr><th>mdpi</th><th>hdpi</th><th>xhdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/ic_action_remove.png">../../src/main/res/drawable-hdpi/ic_action_remove.png</a></span>: <span class="message">The resource <code>R.drawable.ic_action_remove</code> appears to be unused</span><br />
+<ul></ul><button id="Location4DivLink" onclick="reveal('Location4Div');" />+ 3 Additional Locations...</button>
+<div id="Location4Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-mdpi/ic_action_remove.png">../../src/main/res/drawable-mdpi/ic_action_remove.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-xhdpi/ic_action_remove.png">../../src/main/res/drawable-xhdpi/ic_action_remove.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-xxhdpi/ic_action_remove.png">../../src/main/res/drawable-xxhdpi/ic_action_remove.png</a></span>
+</ul>
+</div><br/><br/>
+<table>
+<tr><td><a href="../../src/main/res/drawable-mdpi/ic_action_remove.png"><img border="0" align="top" src="../../src/main/res/drawable-mdpi/ic_action_remove.png" /></a>
+</td><td><a href="../../src/main/res/drawable-hdpi/ic_action_remove.png"><img border="0" align="top" src="../../src/main/res/drawable-hdpi/ic_action_remove.png" /></a>
+</td><td><a href="../../src/main/res/drawable-xhdpi/ic_action_remove.png"><img border="0" align="top" src="../../src/main/res/drawable-xhdpi/ic_action_remove.png" /></a>
+</td><td><a href="../../src/main/res/drawable-xxhdpi/ic_action_remove.png"><img border="0" align="top" src="../../src/main/res/drawable-xxhdpi/ic_action_remove.png" /></a>
+</td></tr><tr><th>mdpi</th><th>hdpi</th><th>xhdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../src/main/res/drawable-land-hdpi/screen.png">../../src/main/res/drawable-land-hdpi/screen.png</a></span>: <span class="message">The resource <code>R.drawable.screen</code> appears to be unused</span><br />
+<ul></ul><button id="Location5DivLink" onclick="reveal('Location5Div');" />+ 11 Additional Locations...</button>
+<div id="Location5Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-land-ldpi/screen.png">../../src/main/res/drawable-land-ldpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-land-mdpi/screen.png">../../src/main/res/drawable-land-mdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-land-xhdpi/screen.png">../../src/main/res/drawable-land-xhdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-land-xxhdpi/screen.png">../../src/main/res/drawable-land-xxhdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-land-xxxhdpi/screen.png">../../src/main/res/drawable-land-xxxhdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-port-hdpi/screen.png">../../src/main/res/drawable-port-hdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-port-ldpi/screen.png">../../src/main/res/drawable-port-ldpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-port-mdpi/screen.png">../../src/main/res/drawable-port-mdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-port-xhdpi/screen.png">../../src/main/res/drawable-port-xhdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-port-xxhdpi/screen.png">../../src/main/res/drawable-port-xxhdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-port-xxxhdpi/screen.png">../../src/main/res/drawable-port-xxxhdpi/screen.png</a></span>
+</ul>
+</div><br/><br/>
+<table>
+<tr><td><a href="../../src/main/res/drawable-land-ldpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-ldpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-port-ldpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-port-ldpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-land-mdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-mdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-port-mdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-port-mdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-land-hdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-hdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-port-hdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-port-hdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-land-xhdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-xhdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-port-xhdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-port-xhdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-land-xxhdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-xxhdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-port-xxhdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-port-xxhdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-land-xxxhdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-xxxhdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-port-xxxhdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-port-xxxhdpi/screen.png" /></a>
+</td></tr><tr><th>land-ldpi</th><th>port-ldpi</th><th>land-mdpi</th><th>port-mdpi</th><th>land-hdpi</th><th>port-hdpi</th><th>land-xhdpi</th><th>port-xhdpi</th><th>land-xxhdpi</th><th>port-xxhdpi</th><th>land-xxxhdpi</th><th>port-xxxhdpi</th></tr>
+</table>
+</div>
+<div class="metadata"><div class="explanation" id="explanationUnusedResources" style="display: none;">
+Unused resources make applications larger and slow down builds.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">UnusedResources</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Performance</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 3/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationUnusedResourcesLink" onclick="reveal('explanationUnusedResources');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="UnusedResourcesCardLink" onclick="hideid('UnusedResourcesCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Usability:Icons"></a>
+<a name="IconDipSize"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="IconDipSizeCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Icon density-independent size validation</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/drawable-land-ldpi/screen.png">../../src/main/res/drawable-land-ldpi/screen.png</a></span>: <span class="message">The image <code>screen.png</code> varies significantly in its density-independent (dip) size across the various density versions: drawable-land-hdpi/screen.png: 533x320 dp (800x480 px), drawable-land-ldpi/screen.png: 427x320 dp (320x240 px), drawable-land-mdpi/screen.png: 480x320 dp (480x320 px), drawable-land-xhdpi/screen.png: 640x360 dp (1280x720 px), drawable-land-xxhdpi/screen.png: 533x320 dp (1600x960 px), drawable-land-xxxhdpi/screen.png: 480x320 dp (1920x1280 px)</span><br />
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 5 Additional Locations...</button>
+<div id="Location1Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-land-mdpi/screen.png">../../src/main/res/drawable-land-mdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-land-xxxhdpi/screen.png">../../src/main/res/drawable-land-xxxhdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-land-hdpi/screen.png">../../src/main/res/drawable-land-hdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-land-xxhdpi/screen.png">../../src/main/res/drawable-land-xxhdpi/screen.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-land-xhdpi/screen.png">../../src/main/res/drawable-land-xhdpi/screen.png</a></span>
+</ul>
+</div><br/><br/>
+<table>
+<tr><td><a href="../../src/main/res/drawable-land-ldpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-ldpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-land-mdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-mdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-land-hdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-hdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-land-xhdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-xhdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-land-xxhdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-xxhdpi/screen.png" /></a>
+</td><td><a href="../../src/main/res/drawable-land-xxxhdpi/screen.png"><img border="0" align="top" src="../../src/main/res/drawable-land-xxxhdpi/screen.png" /></a>
+</td></tr><tr><th>land-ldpi</th><th>land-mdpi</th><th>land-hdpi</th><th>land-xhdpi</th><th>land-xxhdpi</th><th>land-xxxhdpi</th></tr>
+</table>
+</div>
+<div class="metadata"><div class="explanation" id="explanationIconDipSize" style="display: none;">
+Checks the all icons which are provided in multiple densities, all compute to roughly the same density-independent pixel (<code>dip</code>) size. This catches errors where images are either placed in the wrong folder, or icons are changed to new sizes but some folders are forgotten.<br/>To suppress this error, use the issue id "IconDipSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">IconDipSize</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Icons</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Usability</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 5/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationIconDipSizeLink" onclick="reveal('explanationIconDipSize');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="IconDipSizeCardLink" onclick="hideid('IconDipSizeCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Usability"></a>
+<a name="GoogleAppIndexingWarning"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="GoogleAppIndexingWarningCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Missing support for Firebase App Indexing</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:5</span>: <span class="message">App is not indexable by Google Search; consider adding at least one Activity with an ACTION-VIEW intent filter. See issue explanation for more details.</span><br /><pre class="errorlines">
+<span class="lineno">  2 </span><span class="tag">&lt;manifest</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">hardwareAccelerated</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">versionCode</span>=<span class="value">"10000"</span> <span class="prefix">android:</span><span class="attribute">versionName</span>=<span class="value">"1.0.0"</span> <span class="attribute">package</span>=<span class="value">"com.phonegap.batteryandnetwork"</span> <span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>>
+<span class="lineno">  3 </span>    <span class="tag">&lt;supports-screens</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">anyDensity</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">largeScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">normalScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">resizeable</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">smallScreens</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">xlargeScreens</span>=<span class="value">"true"</span> />
+<span class="lineno">  4 </span>    <span class="tag">&lt;uses-permission</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.permission.INTERNET"</span> />
+<span class="caretline"><span class="lineno">  5 </span>    <span class="warning"><span class="tag">&lt;application</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">hardwareAccelerated</span>=<span class="value">"true"</span> <span class="prefix">android:</span><span class="attribute">icon</span>=<span class="value">"@mipmap/icon"</span> <span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/app_name"</span> <span class="prefix">android:</span><span class="attribute">supportsRtl</span>=<span class="value">"true"</span>></span></span>
+<span class="lineno">  6 </span>        <span class="tag">&lt;activity</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">configChanges</span>=<span class="value">"orientation|keyboardHidden|keyboard|screenSize|locale"</span> <span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/activity_name"</span> <span class="prefix">android:</span><span class="attribute">launchMode</span>=<span class="value">"singleTop"</span> <span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"MainActivity"</span> <span class="prefix">android:</span><span class="attribute">theme</span>=<span class="value">"@android:style/Theme.DeviceDefault.NoActionBar"</span> <span class="prefix">android:</span><span class="attribute">windowSoftInputMode</span>=<span class="value">"adjustResize"</span>>
+<span class="lineno">  7 </span>            <span class="tag">&lt;intent-filter</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"@string/launcher_name"</span>>
+<span class="lineno">  8 </span>                <span class="tag">&lt;action</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">name</span>=<span class="value">"android.intent.action.MAIN"</span> />
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationGoogleAppIndexingWarning" style="display: none;">
+Adds URLs to get your app into the Google index, to get installs and traffic to your app from Google Search.<br/><div class="moreinfo">More info: <a href="https://g.co/AppIndexing/AndroidStudio">https://g.co/AppIndexing/AndroidStudio</a>
+</div>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "GoogleAppIndexingWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">GoogleAppIndexingWarning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Usability</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 5/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGoogleAppIndexingWarningLink" onclick="reveal('explanationGoogleAppIndexingWarning');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GoogleAppIndexingWarningCardLink" onclick="hideid('GoogleAppIndexingWarningCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="Internationalization:Bidirectional Text"></a>
+<a name="RtlHardcoded"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="RtlHardcodedCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Using left/right instead of start/end attributes</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java">../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java</a>:618</span>: <span class="message">Use "<code>Gravity.START</code>" instead of "<code>Gravity.LEFT</code>" to ensure correct behavior in right-to-left locales</span><br /><pre class="errorlines">
+<span class="lineno">  615 </span>  toolbar.setBackgroundColor(android.graphics.Color.LTGRAY);
+<span class="lineno">  616 </span>  toolbar.setLayoutParams(<span class="keyword">new</span> RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, <span class="keyword">this</span>.dpToPixels(<span class="number">44</span>)));
+<span class="lineno">  617 </span>  toolbar.setPadding(<span class="keyword">this</span>.dpToPixels(<span class="number">2</span>), <span class="keyword">this</span>.dpToPixels(<span class="number">2</span>), <span class="keyword">this</span>.dpToPixels(<span class="number">2</span>), <span class="keyword">this</span>.dpToPixels(<span class="number">2</span>));
+<span class="caretline"><span class="lineno">  618 </span>  toolbar.setHorizontalGravity(Gravity.<span class="warning">LEFT</span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  619 </span>  toolbar.setVerticalGravity(Gravity.TOP);
+<span class="lineno">  620 </span>
+<span class="lineno">  621 </span>  <span class="comment">// Action Button Container layout</span></pre>
+
+<span class="location"><a href="../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java">../../src/main/java/org/apache/cordova/inappbrowser/InAppBrowser.java</a>:624</span>: <span class="message">Use "<code>Gravity.START</code>" instead of "<code>Gravity.LEFT</code>" to ensure correct behavior in right-to-left locales</span><br /><pre class="errorlines">
+<span class="lineno">  621 </span>  <span class="comment">// Action Button Container layout</span>
+<span class="lineno">  622 </span>  RelativeLayout actionButtonContainer = <span class="keyword">new</span> RelativeLayout(cordova.getActivity());
+<span class="lineno">  623 </span>  actionButtonContainer.setLayoutParams(<span class="keyword">new</span> RelativeLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+<span class="caretline"><span class="lineno">  624 </span>  actionButtonContainer.setHorizontalGravity(Gravity.<span class="warning">LEFT</span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  625 </span>  actionButtonContainer.setVerticalGravity(Gravity.CENTER_VERTICAL);
+<span class="lineno">  626 </span>  actionButtonContainer.setId(Integer.valueOf(<span class="number">1</span>));
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationRtlHardcoded" style="display: none;">
+Using <code>Gravity#LEFT</code> and <code>Gravity#RIGHT</code> can lead to problems when a layout is rendered in locales where text flows from right to left. Use <code>Gravity#START</code> and <code>Gravity#END</code> instead. Similarly, in XML <code>gravity</code> and <code>layout_gravity</code> attributes, use <code>start</code> rather than <code>left</code>.<br/>
+<br/>
+For XML attributes such as paddingLeft and <code>layout_marginLeft</code>, use <code>paddingStart</code> and <code>layout_marginStart</code>. <b>NOTE</b>: If your <code>minSdkVersion</code> is less than 17, you should add <b>both</b> the older left/right attributes <b>as well as</b> the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.<br/>
+<br/>
+(Note: For <code>Gravity#LEFT</code> and <code>Gravity#START</code>, you can use these constants even when targeting older platforms, because the <code>start</code> bitmask is a superset of the <code>left</code> bitmask. Therefore, you can use <code>gravity="start"</code> rather than <code>gravity="left|start"</code>.)<br/>To suppress this error, use the issue id "RtlHardcoded" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">RtlHardcoded</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Bidirectional Text</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Internationalization</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Warning</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 5/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationRtlHardcodedLink" onclick="reveal('explanationRtlHardcoded');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="RtlHardcodedCardLink" onclick="hideid('RtlHardcodedCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="MissingIssues"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="MissingIssuesCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Disabled Checks</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+One or more issues were not run by lint, either 
+because the check is not enabled by default, or because 
+it was disabled with a command line flag or via one or 
+more <code>lint.xml</code> configuration files in the project directories.
+<div id="SuppressedIssues" style="display: none;"><br/><br/><div class="issue">
+<div class="id">AppLinksAutoVerifyError<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Ensures that app links are correctly set and associated with website.<br/><div class="moreinfo">More info: <a href="https://g.co/appindexing/applinks">https://g.co/appindexing/applinks</a>
+</div>To suppress this error, use the issue id "AppLinksAutoVerifyError" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">AppLinksAutoVerifyWarning<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Ensures that app links are correctly set and associated with website.<br/><div class="moreinfo">More info: <a href="https://g.co/appindexing/applinks">https://g.co/appindexing/applinks</a>
+</div>To suppress this error, use the issue id "AppLinksAutoVerifyWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">BackButton<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+According to the Android Design Guide,<br/>
+<br/>
+"Other platforms use an explicit back button with label to allow the user to navigate up the application's hierarchy. Instead, Android uses the main action bar's app icon for hierarchical navigation and the navigation bar's back button for temporal navigation."<br/>
+This check is not very sophisticated (it just looks for buttons with the label "Back"), so it is disabled by default to not trigger on common scenarios like pairs of Back/Next buttons to paginate through screens.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/patterns/pure-android.html">http://developer.android.com/design/patterns/pure-android.html</a>
+</div>To suppress this error, use the issue id "BackButton" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">ConvertToWebp<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+The WebP format is typically more compact than PNG and JPEG. As of Android 4.2.1 it supports transparency and lossless conversion as well. Note that there is a quickfix in the IDE which lets you perform conversion.<br/>
+<br/>
+Launcher icons must be in the PNG format.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "ConvertToWebp" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">EasterEgg<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+An "easter egg" is code deliberately hidden in the code, both from potential users and even from other developers. This lint check looks for code which looks like it may be hidden from sight.<br/>To suppress this error, use the issue id "EasterEgg" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">FieldGetter<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Accessing a field within the class that defines a getter for that field is at least 3 times faster than calling the getter. For simple getters that do nothing other than return the field, you might want to just reference the local field directly instead.<br/>
+<br/>
+<b>NOTE</b>: As of Android 2.3 (Gingerbread), this optimization is performed automatically by Dalvik, so there is no need to change your code; this is only relevant if you are targeting older versions of Android.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/design/performance.html#internal_get_set">http://developer.android.com/guide/practices/design/performance.html#internal_get_set</a>
+</div>To suppress this error, use the issue id "FieldGetter" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">GoogleAppIndexingApiWarning<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Adds URLs to get your app into the Google index, to get installs and traffic to your app from Google Search.<br/><div class="moreinfo">More info: <a href="https://g.co/AppIndexing/AndroidStudio">https://g.co/AppIndexing/AndroidStudio</a>
+</div>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "GoogleAppIndexingApiWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">IconExpectedSize<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+There are predefined sizes (for each density) for launcher icons. You should follow these conventions to make sure your icons fit in with the overall look of the platform.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/style/iconography.html">http://developer.android.com/design/style/iconography.html</a>
+</div>To suppress this error, use the issue id "IconExpectedSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">LogConditional<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+The BuildConfig class (available in Tools 17) provides a constant, "DEBUG", which indicates whether the code is being built in release mode or in debug mode. In release mode, you typically want to strip out all the logging calls. Since the compiler will automatically remove all code which is inside a "if (false)" check, surrounding your logging calls with a check for BuildConfig.DEBUG is a good idea.<br/>
+<br/>
+If you <b>really</b> intend for the logging to be present in release mode, you can suppress this warning with a @SuppressLint annotation for the intentional logging calls.<br/>To suppress this error, use the issue id "LogConditional" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">MangledCRLF<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+On Windows, line endings are typically recorded as carriage return plus newline: \r\n.<br/>
+<br/>
+This detector looks for invalid line endings with repeated carriage return characters (without newlines). Previous versions of the ADT plugin could accidentally introduce these into the file, and when editing the file, the editor could produce confusing visual artifacts.<br/><div class="moreinfo">More info: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=375421">https://bugs.eclipse.org/bugs/show_bug.cgi?id=375421</a>
+</div>To suppress this error, use the issue id "MangledCRLF" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">MinSdkTooLow<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+The value of the <code>minSdkVersion</code> property is too low and can be incrementedwithout noticeably reducing the number of supported devices.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "MinSdkTooLow" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">MissingRegistered<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+If a class is referenced in the manifest or in a layout file, it must also exist in the project (or in one of the libraries included by the project. This check helps uncover typos in registration names, or attempts to rename or move classes without updating the manifest file properly.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/topics/manifest/manifest-intro.html">http://developer.android.com/guide/topics/manifest/manifest-intro.html</a>
+</div>To suppress this error, use the issue id "MissingRegistered" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">NegativeMargin<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Margin values should be positive. Negative values are generally a sign that you are making assumptions about views surrounding the current one, or may be tempted to turn off child clipping to allow a view to escape its parent. Turning off child clipping to do this not only leads to poor graphical performance, it also results in wrong touch event handling since touch events are based strictly on a chain of parent-rect hit tests. Finally, making assumptions about the size of strings can lead to localization problems.<br/>To suppress this error, use the issue id "NegativeMargin" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">NewerVersionAvailable<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project. This is similar to the <code>GradleDependency</code> check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also <b>much</b> slower.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "NewerVersionAvailable" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">PermissionImpliesUnsupportedChromeOsHardware<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+The <code>&lt;uses-permission></code> element should not require a permission that implies an unsupported Chrome OS hardware feature. Google Play assumes that certain hardware related permissions indicate that the underlying hardware features are required by default. To fix the issue, consider declaring the corresponding uses-feature element with <code>required="false"</code> attribute.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/topic/arc/manifest.html#implied-features">https://developer.android.com/topic/arc/manifest.html#implied-features</a>
+</div>To suppress this error, use the issue id "PermissionImpliesUnsupportedChromeOsHardware" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">Registered<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Activities, services and content providers should be registered in the <code>AndroidManifest.xml</code> file using <code>&lt;activity></code>, <code>&lt;service></code> and <code>&lt;provider></code> tags.<br/>
+<br/>
+If your activity is simply a parent class intended to be subclassed by other "real" activities, make it an abstract class.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/topics/manifest/manifest-intro.html">http://developer.android.com/guide/topics/manifest/manifest-intro.html</a>
+</div>To suppress this error, use the issue id "Registered" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">SelectableText<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+If a <code>&lt;TextView></code> is used to display data, the user might want to copy that data and paste it elsewhere. To allow this, the <code>&lt;TextView></code> should specify <code>android:textIsSelectable="true"</code>.<br/>
+<br/>
+This lint check looks for TextViews which are likely to be displaying data: views whose text is set dynamically. This value will be ignored on platforms older than API 11, so it is okay to set it regardless of your <code>minSdkVersion</code>.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "SelectableText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">StopShip<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Using the comment <code>// STOPSHIP</code> can be used to flag code that is incomplete but checked in. This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "StopShip" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">TypographyQuotes<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Straight single quotes and double quotes, when used as a pair, can be replaced by "curvy quotes" (or directional quotes). This can make the text more readable.<br/>
+<br/>
+Note that you should never use grave accents and apostrophes to quote, `like this'.<br/>
+<br/>
+(Also note that you should not use curvy quotes for code fragments.)<br/><div class="moreinfo">More info: <a href="http://en.wikipedia.org/wiki/Quotation_mark">http://en.wikipedia.org/wiki/Quotation_mark</a>
+</div>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "TypographyQuotes" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">UnpackedNativeCode<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+This app loads native libraries using <code>System.loadLibrary()</code>.<br/>
+<br/>
+Consider adding <code>android:extractNativeLibs="false"</code> to the <code>&lt;application></code> tag in AndroidManifest.xml. Starting with Android 6.0, this will make installation faster, the app will take up less space on the device and updates will have smaller download sizes.<br/>To suppress this error, use the issue id "UnpackedNativeCode" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">UnsupportedChromeOsHardware<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+The <code>&lt;uses-feature></code> element should not require this unsupported Chrome OS hardware feature. Any uses-feature not explicitly marked with <code>required="false"</code> is necessary on the device to be installed on. Ensure that any features that might prevent it from being installed on a Chrome OS device are reviewed and marked as not required in the manifest.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/topic/arc/manifest.html#incompat-entries">https://developer.android.com/topic/arc/manifest.html#incompat-entries</a>
+</div>To suppress this error, use the issue id "UnsupportedChromeOsHardware" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">UnusedIds<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+This resource id definition appears not to be needed since it is not referenced from anywhere. Having id definitions, even if unused, is not necessarily a bad idea since they make working on layouts and menus easier, so there is not a strong reason to delete these.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "UnusedIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">WrongThreadInterprocedural<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Searches for interprocedural call paths that violate thread annotations in the program. Tracks the flow of instantiated types and lambda expressions to increase accuracy across method boundaries.<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/components/processes-and-threads.html#Threads">http://developer.android.com/guide/components/processes-and-threads.html#Threads</a>
+</div>To suppress this error, use the issue id "WrongThreadInterprocedural" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+</div>              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="SuppressedIssuesLink" onclick="reveal('SuppressedIssues');">
+List Missing Issues</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="MissingIssuesCardLink" onclick="hideid('MissingIssuesCard');">
+Dismiss</button>            </div>
+            </div>
+          </section>
+<a name="SuppressInfo"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="SuppressCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Suppressing Warnings and Errors</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+Lint errors can be suppressed in a variety of ways:<br/>
+<br/>
+1. With a <code>@SuppressLint</code> annotation in the Java code<br/>
+2. With a <code>tools:ignore</code> attribute in the XML file<br/>
+3. With a //noinspection comment in the source code<br/>
+4. With ignore flags specified in the <code>build.gradle</code> file, as explained below<br/>
+5. With a <code>lint.xml</code> configuration file in the project<br/>
+6. With a <code>lint.xml</code> configuration file passed to lint via the --config flag<br/>
+7. With the --ignore flag passed to lint.<br/>
+<br/>
+To suppress a lint warning with an annotation, add a <code>@SuppressLint("id")</code> annotation on the class, method or variable declaration closest to the warning instance you want to disable. The id can be one or more issue id's, such as <code>"UnusedResources"</code> or <code>{"UnusedResources","UnusedIds"}</code>, or it can be <code>"all"</code> to suppress all lint warnings in the given scope.<br/>
+<br/>
+To suppress a lint warning with a comment, add a <code>//noinspection id</code> comment on the line before the statement with the error.<br/>
+<br/>
+To suppress a lint warning in an XML file, add a <code>tools:ignore="id"</code> attribute on the element containing the error, or one of its surrounding elements. You also need to define the namespace for the tools prefix on the root element in your document, next to the <code>xmlns:android</code> declaration:<br/>
+<code>xmlns:tools="http://schemas.android.com/tools"</code><br/>
+<br/>
+To suppress a lint warning in a <code>build.gradle</code> file, add a section like this:<br/>
+<br/>
+android {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;lintOptions {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disable 'TypographyFractions','TypographyQuotes'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+}<br/>
+<br/>
+Here we specify a comma separated list of issue id's after the disable command. You can also use <code>warning</code> or <code>error</code> instead of <code>disable</code> to change the severity of issues.<br/>
+<br/>
+To suppress lint warnings with a configuration XML file, create a file named <code>lint.xml</code> and place it at the root directory of the module in which it applies.<br/>
+<br/>
+The format of the <code>lint.xml</code> file is something like the following:<br/>
+<br/>
+&lt;?xml version="1.0" encoding="UTF-8"?><br/>
+&lt;lint><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore everything in the test source set --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="all"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="*/test/*" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Disable this given check in this project --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="IconMissingDensityFolder" severity="ignore" /><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the ObsoleteLayoutParam issue in the given files --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="ObsoleteLayoutParam"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout-xlarge/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore regexp="(foo|bar).java" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the UselessLeaf issue in the given file --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="UselessLeaf"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/main.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Change the severity of hardcoded strings to "error" --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="HardcodedText" severity="error" /><br/>
+&lt;/lint><br/>
+<br/>
+To suppress lint checks from the command line, pass the --ignore flag with a comma separated list of ids to be suppressed, such as:<br/>
+<code>$ lint --ignore UnusedResources,UselessLeaf /my/project/path</code><br/>
+<br/>
+For more information, see <a href="http://g.co/androidstudio/suppressing-lint-warnings">http://g.co/androidstudio/suppressing-lint-warnings</a><br/>
+
+            </div>
+            </div>
+          </section>    </div>
+  </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+#Mon Nov 18 08:42:40 EST 2019
+base.0=/Users/matttanner/Documents/Fanshawe/Fall 2019/INFO-3113 Mobile Development/Week 10 COMPLETE/storage/platforms/android/app/build/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex

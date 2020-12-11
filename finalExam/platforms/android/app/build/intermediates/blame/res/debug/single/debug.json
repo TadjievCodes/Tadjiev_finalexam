@@ -1,0 +1,1410 @@
+[
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 8\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6 COMPLETE\\networkandbattery\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_remove.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\User\\Tadjiev_finalexam\\finalExam\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10 COMPLETE\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 10\\storage\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 14 (REVIEW AND EXAM)\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\Helly\\Desktop\\3113 MWD\\f\\final exam\\final exam\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    }
+]
